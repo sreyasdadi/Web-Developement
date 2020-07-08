@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Validation</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<div>
+			<label for="fname">First Name:</label>
+			<input type="text" placeholder="Sreyas" name="firstname" id="fname" required="true">
+			<label for="lname">Last Name:</label>
+			<input type="text" placeholder="Dadi" name="lastname" id="lname" required="true">
+		</div>
+		<div>
+			<label for="male">Male</label>
+			<input type="radio" id="male"name="gender" value="MALE">
+			<label for="female">Female</label>
+			<input type="radio" id="female"name="gender" value="FEMALE">
+			<label for="other">Other</label>
+			<input type="radio" id="other"name="gender" value="OTHER">
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" placeholder="shreaysh.dhadi@gmail.com" name="email" id="email" required="true">
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" minlength="4" maxlength="8" required="true">
+				
+		</div>
+		<div>
+			<label for="birthday">Birthday:</label>
+			<select id="birthday" name="birthdaymonth">
+				<option value="Month">Month</option>
+				<option value="01">January</option>
+			</select>
+			<select name="birthdayday">
+				<option value="Day">Day</option>
+				<option value="01">01</option>
+			</select>
+			<select  name="birthdayyear	">
+				<option value="Year">Year</option>
+				<option value="2020">2020</option>
+			</select>	
+		</div>
+		<div>
+			I agree to the terms and conditions	<input type="checkbox" name="agree" value="true">
+		
+		</div>
+		<button>Submit</button>
+	</form>
+
+</body>
+</html>
