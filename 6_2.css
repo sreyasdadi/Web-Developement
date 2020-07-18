@@ -1,0 +1,16 @@
+h1{
+	text-align: left;
+	
+	border-bottom: 2px solid black;
+	font-family: 'Open Sans', sans-serif;
+	width: 30%;
+	padding-bottom: 20px;
+	margin-left: 1.33%;
+}
+img{
+
+	margin-left: 1.33%;
+	float: 100px;
+	width: 30%;
+	height: auto;
+}
